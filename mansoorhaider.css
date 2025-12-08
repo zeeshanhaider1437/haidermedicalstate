@@ -1,8 +1,13 @@
-﻿.left-logo {
+    text-align: center;
+    font-size: 40px;
+    color: darkblue;
+    margin-top: 20px;
+.left-logo {
     float: left;
     width: 350px;
 }
 
 .below-text {
     clear: both;
+
 }
