@@ -1,7 +1,10 @@
 .left-logo {
     float: left;
     width: 350px;
-   .logo padding: 0;
+}
+.logo {
+    padding: 0;
+    border: 2px solid red; /* temporary */
 }
 
 
