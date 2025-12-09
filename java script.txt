@@ -1,0 +1,15 @@
+// 1️⃣ Show welcome alert when page loads
+window.onload = function() {
+    alert("Welcome to Haider Medical State!");
+}
+
+// 2️⃣ Change paragraph text when button is clicked
+document.getElementById("changeTextBtn").addEventListener("click", function() {
+    document.getElementById("info").innerHTML = 
+        "The institute trains students in various medical fields and provides modern facilities for learning.";
+});
+
+// 3️⃣ Optional: Move logo slightly with JS on click
+document.getElementById("logo").addEventListener("click", function() {
+    this.style.transform = "translateX(20px)"; // move logo to the right
+});
