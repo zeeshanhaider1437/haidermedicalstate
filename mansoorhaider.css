@@ -1,7 +1,5 @@
 body {
-    background-color: white;
-    margin: 0;
-    padding: 20px;
+    background-color: red 
 }
 
 /* Heading font */
@@ -26,6 +24,7 @@ p {
     border-radius: 5px;
     cursor: pointer;
 }
+
 
 
 
