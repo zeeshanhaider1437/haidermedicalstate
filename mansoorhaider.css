@@ -1,18 +1,32 @@
-{background color= white;}
-<button class="btn">Click Me</button>
-<h1>fontfamily:bh-bartle-regular {
-  font-family: "BBH Bartle", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}<h1>
-.roboto-<uniquifier> {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: <weight>;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+body {
+    background-color: white;
+    margin: 0;
+    padding: 20px;
 }
+
+/* Heading font */
+.site-title {
+    font-family: "BBH Bartle", sans-serif;
+    font-weight: 400;
+}
+
+/* Paragraph font */
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Button */
+.btn {
+    background-color: #1e88e5;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 
 
 
